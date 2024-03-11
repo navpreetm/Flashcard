@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.flashcards-container {
+  text-align: center;
+}
+
+.flashcard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px auto;
+  width: 300px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.flashcard:hover {
+  background-color: #f0f0f0;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  font-style: italic;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
